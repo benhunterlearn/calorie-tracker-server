@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/food")
+@CrossOrigin("http://localhost:3000")
 public class FoodController {
 
     private FoodRepository foodRepository;
